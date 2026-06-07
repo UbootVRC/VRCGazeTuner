@@ -8,16 +8,21 @@ Sits between VRCFaceTracking (VRCFT) and VRChat, intercepting OSC face tracking 
 
 All other face tracking data (mouth, brows, etc.) passes through untouched.
 
-## Requirements
+## Usage
 
+### Compiled exe (easiest)
+Download `VRCGazeTuner.exe` from the releases — no Python required. Just run it.
+
+### From source
 ```
 pip install python-osc matplotlib numpy
+python VRCGazeTuner.py
 ```
 
 ## Setup
 
 1. In VRCFT settings, set **Send Port** to `9100` and **IP** to `127.0.0.1`
-2. Run `VRCGazeTuner.py` (or the compiled exe)
+2. Run `VRCGazeTuner.exe` (or `VRCGazeTuner.py` from source)
 3. Enable OSC in VRChat (Action Menu → Options → OSC → Enabled)
 
 ## UI
