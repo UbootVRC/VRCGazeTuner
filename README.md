@@ -23,7 +23,6 @@ python VRCGazeTuner.py
 
 1. In VRCFT settings, set **Send Port** to `9100` and **IP** to `127.0.0.1`
 2. Run `VRCGazeTuner.exe` (or `VRCGazeTuner.py` from source)
-3. Enable OSC in VRChat (Action Menu → Options → OSC → Enabled)
 
 ## UI
 
